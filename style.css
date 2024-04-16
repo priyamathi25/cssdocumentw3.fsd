@@ -1,0 +1,242 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.home{
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: red;
+    z-index: 1;
+    height: 100vh;
+    width: 250px;
+    border-right: 2px solid black;
+}
+.home h1{
+}
+.home ul {
+margin-left: 30px;
+overflow-x: hidden;
+overflow-y: auto;
+
+}
+.home ul li{
+    
+
+border-top: 1px solid black;
+
+}
+.refer{
+    border-bottom: 1px solid black;
+}
+.home ul li a{
+    text-decoration: none;
+
+}
+
+.list{
+    display: block;
+    padding: 10px 30px;
+    color:black;
+    cursor: pointer;
+
+
+    
+}
+.first1{
+ position: absolute;
+    margin-left: 320px;
+
+}
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3school documents</title>
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav  class="home">
+  <h1><i class="fa-solid fa-house"> home</i></h1>
+<ul>
+    <li><a href="#introduction" class="list">introduction</a></li>
+    <li><a href="#editor" class="list">html editors</a></li>
+    <li><a href="#elements" class="list">html elements</a></li>
+    <li><a href="#atributes" class="list"> html attributs</a></li>
+    <li><a href="#heading" class="list"> html heading</a></li>
+    <li> <a href="#style" class="list">html style</a> </li>
+
+    <li> <a href="formatting"  class="list"> html formatting</a></li>
+    <li class="refer"><a href="#reference"  class="list">reference</a></li>
+</ul>
+
+    </nav>
+    <main class=" first1">
+        <section id="introduction"> <br>
+            <h1>introduction</h1><br>
+            <p>HTML stands for Hyper Text Markup Language
+                HTML is the standard markup language for creating Web pages
+                HTML describes the structure of a Web page
+                HTML consists of a series of elements
+                HTML elements tell the browser how to display the content
+                HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+       <br> <h3><u>example</u></h3><br>
+
+    <pre>&lt;!DOCTYPE html &GT;
+        &LT;html&gt;
+        &lt;head&gt;
+        &lt;title>Page Title&lt;/title &gt;
+        &lt; html&gt;
+        &lt;body&gt;
+        
+        &lt;h1&gt;My First Heading&lt;/h1&gt;
+        &lt;p&gt;My first paragraph.&lt;/p&gt;
+        
+        &lt;/body &gt;
+        &lt;/htm l&gt;
+    </pre>
+    </section>
+    <section id="editor"><br>
+        <h1> html editors</h1><br>
+        <article>
+            <p>Web pages can be created and modified by using professional HTML editors.
+
+                However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).
+                
+                We believe that using a simple text editor is a good way to learn HTML.
+                
+                Follow the steps below to create your first web page with Notepad or TextEdit.</p>
+      <h3><u>example</u></h3>
+      <pre>
+        <pre>&lt;!DOCTYPE html &GT;
+            &LT;html&gt;
+            &lt;head&gt;
+            &lt;title>Page Title&lt;/title &gt;
+            &lt; html&gt;
+            &lt;body&gt;
+            
+            &lt;h1&gt;My First Heading&lt;/h1&gt;
+            &lt;p&gt;My first paragraph.&lt;/p&gt;
+            
+            &lt;/body &gt;
+            &lt;/htm l&gt;
+
+      </pre>
+        
+            </article>
+
+    </section>
+    <section id="elements">
+        <h1> html elements</h1><br>
+        <br><pre>The HTML element is everything from the start tag to the end tag:
+
+            &LT;tagname &gt;Content goes here...&lt;/tagname&gt;
+            Examples of some HTML elements:
+            
+            &lt;h1&gt;My First Heading&lt;/h1&gt;
+            &lt;p&gt first paragraph.&lt;/p&gt;&lt;/pre &gt;;
+            <h3><u>example</u></h3>
+            <pre> 
+              
+  &LT;html&gt;
+                &lt;head&gt;
+                &lt;title>Page Title&lt;/title &gt;
+                &lt; html&gt;
+                &lt;body&gt;
+                
+                &lt;h1&gt;My First Heading&lt;/h1&gt;
+                &lt;p&gt;My first paragraph.&lt;/p&gt;
+                
+                &lt;/body &gt;
+                &lt;/htm l&gt;</pre>
+
+    </section>
+    <section id="atributes">
+        <h1>html attributs</h1> <br>
+        <ul>
+            <li>All HTML elements can have attributes </li>
+            <li>Attributes provide additional information about elements</li>
+            <li> Attributes are always specified in the start tag</li>
+            <li> Attributes usually come in name/value pairs like: name="value"</li>
+
+        </ul><br>
+        <h3><u>example</u></h3><br>
+        <pre>
+            &LT;html&gt;
+            &lt;head&gt;
+            &lt;title>Page Title&lt;/title &gt;
+            &lt; html&gt;
+            &lt;body&gt;
+            
+            &lt;h1&gt;My First Heading&lt;/h1&gt;
+            &lt;p&gt;My first paragraph.&lt;/p&gt;
+            
+            &lt;/body &gt;
+            &lt;/htm l&gt;
+
+        </pre>
+
+    </section>
+    <section id="heading"><br>
+        <h1>html heading</h1><br>
+<p>HTML headings are titles or subtitles that you want to display on a webpage.
+</p><br>
+<h3><u>example</u></h3>
+<pre>
+   <h1> Heading 1</h1>
+<h1>heading 2</h1>
+<h3>heading 3</h3>
+<h4>heading 4</h4>
+<h5>heading 5</h5>
+<h6>heading 6</h6>
+</pre>
+    </section>
+    <section id="style"><br>
+        <h1>html style</h1><br>
+        <p>The HTML style attribute is used to add styles to an element, such as color, font, size, and more</p>
+<br><h3><u>example</u></h3><br>
+<pre>
+   <p style="color: 0range;"> I am orange</p>
+
+   <p style="color: skyblue;"> I am skyBlue</p>
+    
+    <p style="color: green;"> I am green</p>
+</pre>
+    </section>
+    <section id="formatting"><br>
+        <h1>html formatting</h1><br>
+        <p>
+            HTML contains several elements for defining text with a special meaning.
+        </p><br>
+        <h3><u>example</u></h3>
+        <pre>
+            <b>this is bold </b><br>
+            <i>this is italic</i><br>
+<sub>this is subscript and superscript</sub><br>
+        </pre>
+
+    </section>
+    <section id="reference"><br>
+        <h1>html reference</h1><br>
+        <pre>Defines a comment
+            &lt;!DOCTYPE&gt;	Defines the document type
+            &lt;a&gt;	Defines a hyperlink
+            &lt;abbr&gt	Defines an abbreviation or an acronym
+            <acronym>	Not supported in HTML5. Use <abbr> instead.
+            Defines an acronym
+            <address>	Defines contact information for the author/owner of a document
+            <applet>	Not supported in HTML5. Use <embed> or <object> instead.
+            Defines an embedded applet
+            <area>	Defines an area inside an image map
+            <article>	Defines an article</pre>
+
+    </section>
+
+    </main>
+    
+</body>
+</html>  */
